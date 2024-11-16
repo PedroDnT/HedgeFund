@@ -1,0 +1,17 @@
+python-dotenv
+langchain
+langgraph
+openai
+tiktoken
+pandas
+requests
+pydantic
+langgraph 
+langchain 
+langchain_openai
+langchain_experimental
+langsmith
+pandas
+ta
+pydantic
+langchain_core
