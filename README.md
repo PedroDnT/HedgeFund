@@ -60,7 +60,7 @@ An adaptation of [virattt's hedge-fund-agent-team](https://gist.github.com/virat
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone <https://github.com/PedroDnT/HedgeFund>
 cd <repository-directory>
 
 ```
