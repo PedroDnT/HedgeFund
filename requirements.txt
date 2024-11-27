@@ -15,3 +15,8 @@ pandas
 ta
 pydantic
 langchain_core
+rich
+typing_extensions
+httpx
+httpcore
+urllib3

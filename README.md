@@ -42,6 +42,40 @@ An adaptation of [virattt's hedge-fund-agent-team](https://gist.github.com/virat
   - Clear visual hierarchy
   - Organized data presentation
 
+## Flow
+
+
+```mermaid
+  graph TD
+    A[Start] --> B[Supervisor Router]
+    B --> C{Route Query}
+    
+    C -->|Fundamental Analysis| D[Fundamental Analyst]
+    C -->|Valuation Analysis| E[Valuation Analyst]
+    C -->|Price Analysis| F[Price Analyst]
+    
+    D -->|Uses Tools| D1[get_balance_sheet_history<br/>get_income_statements<br/>get_balance_sheet_history_quarterly<br/>get_income_statement_history_quarterly]
+    E -->|Uses Tools| E1[get_default_key_statistics<br/>get_financial_data]
+    F -->|Uses Tools| F1[get_quote]
+    
+    D -->|Next Step| G{Get Next Step}
+    E -->|Next Step| G
+    F -->|Next Step| G
+    
+    G -->|More Analysts| C
+    G -->|All Complete| H[Final Summary Agent]
+    
+    H -->|Portfolio Manager| I[End]
+    
+    subgraph "Agent State"
+        J[messages]
+        K[selected_analysts]
+        L[current_analyst_idx]
+        M[error_count]
+        N[completed_analyses]
+    end
+```
+
 ## Requirements
 
 - Python 3.8+
