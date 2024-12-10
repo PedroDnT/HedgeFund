@@ -1,0 +1,3972 @@
+[
+  {
+    "function_name": "get_quote_list",
+    "success": true,
+    "error_message": null,
+    "response_data": {
+      "stocks": "Empty DataFrame\nColumns: []\nIndex: []"
+    }
+  },
+  {
+    "function_name": "get_quote",
+    "success": true,
+    "error_message": null,
+    "response_data": {
+      "results": [
+        {
+          "symbol": "PETR4",
+          "shortName": "PETROBRAS   PN      N2",
+          "longName": "Petr\u00f3leo Brasileiro S.A. - Petrobras",
+          "currency": "BRL",
+          "regularMarketPrice": 40.34,
+          "regularMarketChange": 0.3,
+          "regularMarketChangePercent": 0.749,
+          "regularMarketVolume": 4762600,
+          "marketCap": null,
+          "fiftyTwoWeekLow": 33.8,
+          "fiftyTwoWeekHigh": 42.94,
+          "averageDailyVolume3Month": null,
+          "regularMarketTime": "2024-12-10T14:06:01.000Z",
+          "regularMarketDayHigh": 40.38,
+          "regularMarketDayRange": "40.12 - 40.38",
+          "regularMarketDayLow": 40.12,
+          "regularMarketPreviousClose": 40.04,
+          "regularMarketOpen": 39.5,
+          "fiftyTwoWeekRange": "33.8 - 42.94",
+          "usedInterval": "1d",
+          "usedRange": "1mo",
+          "historicalDataPrice": [],
+          "validRanges": [
+            "1d",
+            "2d",
+            "5d",
+            "7d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ],
+          "validIntervals": [
+            "1m",
+            "2m",
+            "5m",
+            "15m",
+            "30m",
+            "60m",
+            "90m",
+            "1h",
+            "1d",
+            "5d",
+            "1wk",
+            "1mo",
+            "3mo"
+          ],
+          "priceEarnings": 6.110738050180087,
+          "earningsPerShare": 6.5524291,
+          "logourl": "https://s3-symbol-logo.tradingview.com/brasileiro-petrobras--big.svg"
+        }
+      ],
+      "requestedAt": "2024-12-10T14:25:00.527Z",
+      "took": "0ms"
+    }
+  },
+  {
+    "function_name": "get_income_statements",
+    "success": false,
+    "error_message": "No data returned",
+    "response_data": {}
+  },
+  {
+    "function_name": "get_balance_sheet_history",
+    "success": false,
+    "error_message": "No data returned",
+    "response_data": {}
+  },
+  {
+    "function_name": "get_financial_data",
+    "success": true,
+    "error_message": null,
+    "response_data": {
+      "PETR4": {
+        "financialData": {
+          "currentPrice": 40.26,
+          "targetHighPrice": 51,
+          "targetLowPrice": 41,
+          "targetMeanPrice": 46.69091,
+          "targetMedianPrice": 48,
+          "recommendationMean": 1.58333,
+          "recommendationKey": "buy",
+          "numberOfAnalystOpinions": 11,
+          "totalCash": 77838000128,
+          "totalCashPerShare": 6.039,
+          "ebitda": 223582994432,
+          "totalDebt": 322156986368,
+          "quickRatio": 0.643,
+          "currentRatio": 0.935,
+          "totalRevenue": 503819010048,
+          "debtToEquity": 81.548,
+          "revenuePerShare": 39.001,
+          "returnOnAssets": 0.109230004,
+          "returnOnEquity": 0.21757999,
+          "freeCashflow": 111708872704,
+          "operatingCashflow": 214028992512,
+          "earningsGrowth": 0.237,
+          "revenueGrowth": 0.038,
+          "grossMargins": 0.51795,
+          "ebitdaMargins": 0.44377998,
+          "operatingMargins": 0.39625,
+          "profitMargins": 0.1681,
+          "financialCurrency": "BRL"
+        }
+      }
+    }
+  },
+  {
+    "function_name": "get_default_key_statistics",
+    "success": true,
+    "error_message": null,
+    "response_data": {
+      "PETR4": {
+        "defaultKeyStatistics": {
+          "priceHint": 2,
+          "enterpriseValue": 761781878784,
+          "forwardPE": 4.862152,
+          "profitMargins": 0.1681,
+          "floatShares": 7950930353,
+          "sharesOutstanding": 5446499840,
+          "heldPercentInsiders": 0.1607,
+          "heldPercentInstitutions": 0.35924998,
+          "beta": 0.914,
+          "impliedSharesOutstanding": 13475999744,
+          "bookValue": 30.543,
+          "priceToBook": 1.3165046,
+          "lastFiscalYearEnd": "2023-12-31T00:00:00.000Z",
+          "nextFiscalYearEnd": "2024-12-31T00:00:00.000Z",
+          "mostRecentQuarter": "2024-09-30T00:00:00.000Z",
+          "earningsQuarterlyGrowth": 0.223,
+          "netIncomeToCommon": 84693000192,
+          "trailingEps": 7.7,
+          "forwardEps": 8.04,
+          "lastSplitFactor": "2:1",
+          "lastSplitDate": 1209340800,
+          "enterpriseToRevenue": 1.512,
+          "enterpriseToEbitda": 3.407,
+          "52WeekChange": 0.1452465,
+          "SandP52WeekChange": 0.30345416,
+          "lastDividendValue": 1.328207,
+          "lastDividendDate": "2024-12-26T00:00:00.000Z"
+        }
+      }
+    }
+  },
+  {
+    "function_name": "get_inflation",
+    "success": true,
+    "error_message": null,
+    "response_data": {
+      "inflation": [
+        {
+          "date": "01/11/2024",
+          "value": "4.87",
+          "epochDate": 1730419200000
+        },
+        {
+          "date": "01/10/2024",
+          "value": "4.76",
+          "epochDate": 1727740800000
+        },
+        {
+          "date": "01/09/2024",
+          "value": "4.42",
+          "epochDate": 1725148800000
+        },
+        {
+          "date": "01/08/2024",
+          "value": "4.24",
+          "epochDate": 1722470400000
+        },
+        {
+          "date": "01/07/2024",
+          "value": "4.50",
+          "epochDate": 1719792000000
+        },
+        {
+          "date": "01/06/2024",
+          "value": "4.23",
+          "epochDate": 1717200000000
+        },
+        {
+          "date": "01/05/2024",
+          "value": "3.93",
+          "epochDate": 1714521600000
+        },
+        {
+          "date": "01/04/2024",
+          "value": "3.69",
+          "epochDate": 1711929600000
+        },
+        {
+          "date": "01/03/2024",
+          "value": "3.93",
+          "epochDate": 1709251200000
+        },
+        {
+          "date": "01/02/2024",
+          "value": "4.50",
+          "epochDate": 1706745600000
+        },
+        {
+          "date": "01/01/2024",
+          "value": "4.51",
+          "epochDate": 1704067200000
+        },
+        {
+          "date": "01/12/2023",
+          "value": "4.62",
+          "epochDate": 1701388800000
+        },
+        {
+          "date": "01/11/2023",
+          "value": "4.68",
+          "epochDate": 1698796800000
+        },
+        {
+          "date": "01/10/2023",
+          "value": "4.82",
+          "epochDate": 1696118400000
+        },
+        {
+          "date": "01/09/2023",
+          "value": "5.19",
+          "epochDate": 1693526400000
+        },
+        {
+          "date": "01/08/2023",
+          "value": "4.61",
+          "epochDate": 1690848000000
+        },
+        {
+          "date": "01/07/2023",
+          "value": "3.99",
+          "epochDate": 1688169600000
+        },
+        {
+          "date": "01/06/2023",
+          "value": "3.16",
+          "epochDate": 1685577600000
+        },
+        {
+          "date": "01/05/2023",
+          "value": "3.94",
+          "epochDate": 1682899200000
+        },
+        {
+          "date": "01/04/2023",
+          "value": "4.18",
+          "epochDate": 1680307200000
+        },
+        {
+          "date": "01/03/2023",
+          "value": "4.65",
+          "epochDate": 1677628800000
+        },
+        {
+          "date": "01/02/2023",
+          "value": "5.60",
+          "epochDate": 1675209600000
+        },
+        {
+          "date": "01/01/2023",
+          "value": "5.77",
+          "epochDate": 1672531200000
+        },
+        {
+          "date": "01/12/2022",
+          "value": "5.79",
+          "epochDate": 1669852800000
+        }
+      ]
+    }
+  },
+  {
+    "function_name": "get_prime_rate",
+    "success": true,
+    "error_message": null,
+    "response_data": {
+      "prime-rate": [
+        {
+          "date": "10/12/2024",
+          "value": "11.25",
+          "epochDate": 1733788800000
+        },
+        {
+          "date": "09/12/2024",
+          "value": "11.25",
+          "epochDate": 1733702400000
+        },
+        {
+          "date": "08/12/2024",
+          "value": "11.25",
+          "epochDate": 1733616000000
+        },
+        {
+          "date": "07/12/2024",
+          "value": "11.25",
+          "epochDate": 1733529600000
+        },
+        {
+          "date": "06/12/2024",
+          "value": "11.25",
+          "epochDate": 1733443200000
+        },
+        {
+          "date": "05/12/2024",
+          "value": "11.25",
+          "epochDate": 1733356800000
+        },
+        {
+          "date": "04/12/2024",
+          "value": "11.25",
+          "epochDate": 1733270400000
+        },
+        {
+          "date": "03/12/2024",
+          "value": "11.25",
+          "epochDate": 1733184000000
+        },
+        {
+          "date": "02/12/2024",
+          "value": "11.25",
+          "epochDate": 1733097600000
+        },
+        {
+          "date": "01/12/2024",
+          "value": "11.25",
+          "epochDate": 1733011200000
+        },
+        {
+          "date": "30/11/2024",
+          "value": "11.25",
+          "epochDate": 1732924800000
+        },
+        {
+          "date": "29/11/2024",
+          "value": "11.25",
+          "epochDate": 1732838400000
+        },
+        {
+          "date": "28/11/2024",
+          "value": "11.25",
+          "epochDate": 1732752000000
+        },
+        {
+          "date": "27/11/2024",
+          "value": "11.25",
+          "epochDate": 1732665600000
+        },
+        {
+          "date": "26/11/2024",
+          "value": "11.25",
+          "epochDate": 1732579200000
+        },
+        {
+          "date": "25/11/2024",
+          "value": "11.25",
+          "epochDate": 1732492800000
+        },
+        {
+          "date": "24/11/2024",
+          "value": "11.25",
+          "epochDate": 1732406400000
+        },
+        {
+          "date": "23/11/2024",
+          "value": "11.25",
+          "epochDate": 1732320000000
+        },
+        {
+          "date": "22/11/2024",
+          "value": "11.25",
+          "epochDate": 1732233600000
+        },
+        {
+          "date": "21/11/2024",
+          "value": "11.25",
+          "epochDate": 1732147200000
+        },
+        {
+          "date": "20/11/2024",
+          "value": "11.25",
+          "epochDate": 1732060800000
+        },
+        {
+          "date": "19/11/2024",
+          "value": "11.25",
+          "epochDate": 1731974400000
+        },
+        {
+          "date": "18/11/2024",
+          "value": "11.25",
+          "epochDate": 1731888000000
+        },
+        {
+          "date": "17/11/2024",
+          "value": "11.25",
+          "epochDate": 1731801600000
+        },
+        {
+          "date": "16/11/2024",
+          "value": "11.25",
+          "epochDate": 1731715200000
+        },
+        {
+          "date": "15/11/2024",
+          "value": "11.25",
+          "epochDate": 1731628800000
+        },
+        {
+          "date": "14/11/2024",
+          "value": "11.25",
+          "epochDate": 1731542400000
+        },
+        {
+          "date": "13/11/2024",
+          "value": "11.25",
+          "epochDate": 1731456000000
+        },
+        {
+          "date": "12/11/2024",
+          "value": "11.25",
+          "epochDate": 1731369600000
+        },
+        {
+          "date": "11/11/2024",
+          "value": "11.25",
+          "epochDate": 1731283200000
+        },
+        {
+          "date": "10/11/2024",
+          "value": "11.25",
+          "epochDate": 1731196800000
+        },
+        {
+          "date": "09/11/2024",
+          "value": "11.25",
+          "epochDate": 1731110400000
+        },
+        {
+          "date": "08/11/2024",
+          "value": "11.25",
+          "epochDate": 1731024000000
+        },
+        {
+          "date": "07/11/2024",
+          "value": "11.25",
+          "epochDate": 1730937600000
+        },
+        {
+          "date": "06/11/2024",
+          "value": "10.75",
+          "epochDate": 1730851200000
+        },
+        {
+          "date": "05/11/2024",
+          "value": "10.75",
+          "epochDate": 1730764800000
+        },
+        {
+          "date": "04/11/2024",
+          "value": "10.75",
+          "epochDate": 1730678400000
+        },
+        {
+          "date": "03/11/2024",
+          "value": "10.75",
+          "epochDate": 1730592000000
+        },
+        {
+          "date": "02/11/2024",
+          "value": "10.75",
+          "epochDate": 1730505600000
+        },
+        {
+          "date": "01/11/2024",
+          "value": "10.75",
+          "epochDate": 1730419200000
+        },
+        {
+          "date": "31/10/2024",
+          "value": "10.75",
+          "epochDate": 1730332800000
+        },
+        {
+          "date": "30/10/2024",
+          "value": "10.75",
+          "epochDate": 1730246400000
+        },
+        {
+          "date": "29/10/2024",
+          "value": "10.75",
+          "epochDate": 1730160000000
+        },
+        {
+          "date": "28/10/2024",
+          "value": "10.75",
+          "epochDate": 1730073600000
+        },
+        {
+          "date": "27/10/2024",
+          "value": "10.75",
+          "epochDate": 1729987200000
+        },
+        {
+          "date": "26/10/2024",
+          "value": "10.75",
+          "epochDate": 1729900800000
+        },
+        {
+          "date": "25/10/2024",
+          "value": "10.75",
+          "epochDate": 1729814400000
+        },
+        {
+          "date": "24/10/2024",
+          "value": "10.75",
+          "epochDate": 1729728000000
+        },
+        {
+          "date": "23/10/2024",
+          "value": "10.75",
+          "epochDate": 1729641600000
+        },
+        {
+          "date": "22/10/2024",
+          "value": "10.75",
+          "epochDate": 1729555200000
+        },
+        {
+          "date": "21/10/2024",
+          "value": "10.75",
+          "epochDate": 1729468800000
+        },
+        {
+          "date": "20/10/2024",
+          "value": "10.75",
+          "epochDate": 1729382400000
+        },
+        {
+          "date": "19/10/2024",
+          "value": "10.75",
+          "epochDate": 1729296000000
+        },
+        {
+          "date": "18/10/2024",
+          "value": "10.75",
+          "epochDate": 1729209600000
+        },
+        {
+          "date": "17/10/2024",
+          "value": "10.75",
+          "epochDate": 1729123200000
+        },
+        {
+          "date": "16/10/2024",
+          "value": "10.75",
+          "epochDate": 1729036800000
+        },
+        {
+          "date": "15/10/2024",
+          "value": "10.75",
+          "epochDate": 1728950400000
+        },
+        {
+          "date": "14/10/2024",
+          "value": "10.75",
+          "epochDate": 1728864000000
+        },
+        {
+          "date": "13/10/2024",
+          "value": "10.75",
+          "epochDate": 1728777600000
+        },
+        {
+          "date": "12/10/2024",
+          "value": "10.75",
+          "epochDate": 1728691200000
+        },
+        {
+          "date": "11/10/2024",
+          "value": "10.75",
+          "epochDate": 1728604800000
+        },
+        {
+          "date": "10/10/2024",
+          "value": "10.75",
+          "epochDate": 1728518400000
+        },
+        {
+          "date": "09/10/2024",
+          "value": "10.75",
+          "epochDate": 1728432000000
+        },
+        {
+          "date": "08/10/2024",
+          "value": "10.75",
+          "epochDate": 1728345600000
+        },
+        {
+          "date": "07/10/2024",
+          "value": "10.75",
+          "epochDate": 1728259200000
+        },
+        {
+          "date": "06/10/2024",
+          "value": "10.75",
+          "epochDate": 1728172800000
+        },
+        {
+          "date": "05/10/2024",
+          "value": "10.75",
+          "epochDate": 1728086400000
+        },
+        {
+          "date": "04/10/2024",
+          "value": "10.75",
+          "epochDate": 1728000000000
+        },
+        {
+          "date": "03/10/2024",
+          "value": "10.75",
+          "epochDate": 1727913600000
+        },
+        {
+          "date": "02/10/2024",
+          "value": "10.75",
+          "epochDate": 1727827200000
+        },
+        {
+          "date": "01/10/2024",
+          "value": "10.75",
+          "epochDate": 1727740800000
+        },
+        {
+          "date": "30/09/2024",
+          "value": "10.75",
+          "epochDate": 1727654400000
+        },
+        {
+          "date": "29/09/2024",
+          "value": "10.75",
+          "epochDate": 1727568000000
+        },
+        {
+          "date": "28/09/2024",
+          "value": "10.75",
+          "epochDate": 1727481600000
+        },
+        {
+          "date": "27/09/2024",
+          "value": "10.75",
+          "epochDate": 1727395200000
+        },
+        {
+          "date": "26/09/2024",
+          "value": "10.75",
+          "epochDate": 1727308800000
+        },
+        {
+          "date": "25/09/2024",
+          "value": "10.75",
+          "epochDate": 1727222400000
+        },
+        {
+          "date": "24/09/2024",
+          "value": "10.75",
+          "epochDate": 1727136000000
+        },
+        {
+          "date": "23/09/2024",
+          "value": "10.75",
+          "epochDate": 1727049600000
+        },
+        {
+          "date": "22/09/2024",
+          "value": "10.75",
+          "epochDate": 1726963200000
+        },
+        {
+          "date": "21/09/2024",
+          "value": "10.75",
+          "epochDate": 1726876800000
+        },
+        {
+          "date": "20/09/2024",
+          "value": "10.75",
+          "epochDate": 1726790400000
+        },
+        {
+          "date": "19/09/2024",
+          "value": "10.75",
+          "epochDate": 1726704000000
+        },
+        {
+          "date": "18/09/2024",
+          "value": "10.50",
+          "epochDate": 1726617600000
+        },
+        {
+          "date": "17/09/2024",
+          "value": "10.50",
+          "epochDate": 1726531200000
+        },
+        {
+          "date": "16/09/2024",
+          "value": "10.50",
+          "epochDate": 1726444800000
+        },
+        {
+          "date": "15/09/2024",
+          "value": "10.50",
+          "epochDate": 1726358400000
+        },
+        {
+          "date": "14/09/2024",
+          "value": "10.50",
+          "epochDate": 1726272000000
+        },
+        {
+          "date": "13/09/2024",
+          "value": "10.50",
+          "epochDate": 1726185600000
+        },
+        {
+          "date": "12/09/2024",
+          "value": "10.50",
+          "epochDate": 1726099200000
+        },
+        {
+          "date": "11/09/2024",
+          "value": "10.50",
+          "epochDate": 1726012800000
+        },
+        {
+          "date": "10/09/2024",
+          "value": "10.50",
+          "epochDate": 1725926400000
+        },
+        {
+          "date": "09/09/2024",
+          "value": "10.50",
+          "epochDate": 1725840000000
+        },
+        {
+          "date": "08/09/2024",
+          "value": "10.50",
+          "epochDate": 1725753600000
+        },
+        {
+          "date": "07/09/2024",
+          "value": "10.50",
+          "epochDate": 1725667200000
+        },
+        {
+          "date": "06/09/2024",
+          "value": "10.50",
+          "epochDate": 1725580800000
+        },
+        {
+          "date": "05/09/2024",
+          "value": "10.50",
+          "epochDate": 1725494400000
+        },
+        {
+          "date": "04/09/2024",
+          "value": "10.50",
+          "epochDate": 1725408000000
+        },
+        {
+          "date": "03/09/2024",
+          "value": "10.50",
+          "epochDate": 1725321600000
+        },
+        {
+          "date": "02/09/2024",
+          "value": "10.50",
+          "epochDate": 1725235200000
+        },
+        {
+          "date": "01/09/2024",
+          "value": "10.50",
+          "epochDate": 1725148800000
+        },
+        {
+          "date": "31/08/2024",
+          "value": "10.50",
+          "epochDate": 1725062400000
+        },
+        {
+          "date": "30/08/2024",
+          "value": "10.50",
+          "epochDate": 1724976000000
+        },
+        {
+          "date": "29/08/2024",
+          "value": "10.50",
+          "epochDate": 1724889600000
+        },
+        {
+          "date": "28/08/2024",
+          "value": "10.50",
+          "epochDate": 1724803200000
+        },
+        {
+          "date": "27/08/2024",
+          "value": "10.50",
+          "epochDate": 1724716800000
+        },
+        {
+          "date": "26/08/2024",
+          "value": "10.50",
+          "epochDate": 1724630400000
+        },
+        {
+          "date": "25/08/2024",
+          "value": "10.50",
+          "epochDate": 1724544000000
+        },
+        {
+          "date": "24/08/2024",
+          "value": "10.50",
+          "epochDate": 1724457600000
+        },
+        {
+          "date": "23/08/2024",
+          "value": "10.50",
+          "epochDate": 1724371200000
+        },
+        {
+          "date": "22/08/2024",
+          "value": "10.50",
+          "epochDate": 1724284800000
+        },
+        {
+          "date": "21/08/2024",
+          "value": "10.50",
+          "epochDate": 1724198400000
+        },
+        {
+          "date": "20/08/2024",
+          "value": "10.50",
+          "epochDate": 1724112000000
+        },
+        {
+          "date": "19/08/2024",
+          "value": "10.50",
+          "epochDate": 1724025600000
+        },
+        {
+          "date": "18/08/2024",
+          "value": "10.50",
+          "epochDate": 1723939200000
+        },
+        {
+          "date": "17/08/2024",
+          "value": "10.50",
+          "epochDate": 1723852800000
+        },
+        {
+          "date": "16/08/2024",
+          "value": "10.50",
+          "epochDate": 1723766400000
+        },
+        {
+          "date": "15/08/2024",
+          "value": "10.50",
+          "epochDate": 1723680000000
+        },
+        {
+          "date": "14/08/2024",
+          "value": "10.50",
+          "epochDate": 1723593600000
+        },
+        {
+          "date": "13/08/2024",
+          "value": "10.50",
+          "epochDate": 1723507200000
+        },
+        {
+          "date": "12/08/2024",
+          "value": "10.50",
+          "epochDate": 1723420800000
+        },
+        {
+          "date": "11/08/2024",
+          "value": "10.50",
+          "epochDate": 1723334400000
+        },
+        {
+          "date": "10/08/2024",
+          "value": "10.50",
+          "epochDate": 1723248000000
+        },
+        {
+          "date": "09/08/2024",
+          "value": "10.50",
+          "epochDate": 1723161600000
+        },
+        {
+          "date": "08/08/2024",
+          "value": "10.50",
+          "epochDate": 1723075200000
+        },
+        {
+          "date": "07/08/2024",
+          "value": "10.50",
+          "epochDate": 1722988800000
+        },
+        {
+          "date": "06/08/2024",
+          "value": "10.50",
+          "epochDate": 1722902400000
+        },
+        {
+          "date": "05/08/2024",
+          "value": "10.50",
+          "epochDate": 1722816000000
+        },
+        {
+          "date": "04/08/2024",
+          "value": "10.50",
+          "epochDate": 1722729600000
+        },
+        {
+          "date": "03/08/2024",
+          "value": "10.50",
+          "epochDate": 1722643200000
+        },
+        {
+          "date": "02/08/2024",
+          "value": "10.50",
+          "epochDate": 1722556800000
+        },
+        {
+          "date": "01/08/2024",
+          "value": "10.50",
+          "epochDate": 1722470400000
+        },
+        {
+          "date": "31/07/2024",
+          "value": "10.50",
+          "epochDate": 1722384000000
+        },
+        {
+          "date": "30/07/2024",
+          "value": "10.50",
+          "epochDate": 1722297600000
+        },
+        {
+          "date": "29/07/2024",
+          "value": "10.50",
+          "epochDate": 1722211200000
+        },
+        {
+          "date": "28/07/2024",
+          "value": "10.50",
+          "epochDate": 1722124800000
+        },
+        {
+          "date": "27/07/2024",
+          "value": "10.50",
+          "epochDate": 1722038400000
+        },
+        {
+          "date": "26/07/2024",
+          "value": "10.50",
+          "epochDate": 1721952000000
+        },
+        {
+          "date": "25/07/2024",
+          "value": "10.50",
+          "epochDate": 1721865600000
+        },
+        {
+          "date": "24/07/2024",
+          "value": "10.50",
+          "epochDate": 1721779200000
+        },
+        {
+          "date": "23/07/2024",
+          "value": "10.50",
+          "epochDate": 1721692800000
+        },
+        {
+          "date": "22/07/2024",
+          "value": "10.50",
+          "epochDate": 1721606400000
+        },
+        {
+          "date": "21/07/2024",
+          "value": "10.50",
+          "epochDate": 1721520000000
+        },
+        {
+          "date": "20/07/2024",
+          "value": "10.50",
+          "epochDate": 1721433600000
+        },
+        {
+          "date": "19/07/2024",
+          "value": "10.50",
+          "epochDate": 1721347200000
+        },
+        {
+          "date": "18/07/2024",
+          "value": "10.50",
+          "epochDate": 1721260800000
+        },
+        {
+          "date": "17/07/2024",
+          "value": "10.50",
+          "epochDate": 1721174400000
+        },
+        {
+          "date": "16/07/2024",
+          "value": "10.50",
+          "epochDate": 1721088000000
+        },
+        {
+          "date": "15/07/2024",
+          "value": "10.50",
+          "epochDate": 1721001600000
+        },
+        {
+          "date": "14/07/2024",
+          "value": "10.50",
+          "epochDate": 1720915200000
+        },
+        {
+          "date": "13/07/2024",
+          "value": "10.50",
+          "epochDate": 1720828800000
+        },
+        {
+          "date": "12/07/2024",
+          "value": "10.50",
+          "epochDate": 1720742400000
+        },
+        {
+          "date": "11/07/2024",
+          "value": "10.50",
+          "epochDate": 1720656000000
+        },
+        {
+          "date": "10/07/2024",
+          "value": "10.50",
+          "epochDate": 1720569600000
+        },
+        {
+          "date": "09/07/2024",
+          "value": "10.50",
+          "epochDate": 1720483200000
+        },
+        {
+          "date": "08/07/2024",
+          "value": "10.50",
+          "epochDate": 1720396800000
+        },
+        {
+          "date": "07/07/2024",
+          "value": "10.50",
+          "epochDate": 1720310400000
+        },
+        {
+          "date": "06/07/2024",
+          "value": "10.50",
+          "epochDate": 1720224000000
+        },
+        {
+          "date": "05/07/2024",
+          "value": "10.50",
+          "epochDate": 1720137600000
+        },
+        {
+          "date": "04/07/2024",
+          "value": "10.50",
+          "epochDate": 1720051200000
+        },
+        {
+          "date": "03/07/2024",
+          "value": "10.50",
+          "epochDate": 1719964800000
+        },
+        {
+          "date": "02/07/2024",
+          "value": "10.50",
+          "epochDate": 1719878400000
+        },
+        {
+          "date": "01/07/2024",
+          "value": "10.50",
+          "epochDate": 1719792000000
+        },
+        {
+          "date": "30/06/2024",
+          "value": "10.50",
+          "epochDate": 1719705600000
+        },
+        {
+          "date": "29/06/2024",
+          "value": "10.50",
+          "epochDate": 1719619200000
+        },
+        {
+          "date": "28/06/2024",
+          "value": "10.50",
+          "epochDate": 1719532800000
+        },
+        {
+          "date": "27/06/2024",
+          "value": "10.50",
+          "epochDate": 1719446400000
+        },
+        {
+          "date": "26/06/2024",
+          "value": "10.50",
+          "epochDate": 1719360000000
+        },
+        {
+          "date": "25/06/2024",
+          "value": "10.50",
+          "epochDate": 1719273600000
+        },
+        {
+          "date": "24/06/2024",
+          "value": "10.50",
+          "epochDate": 1719187200000
+        },
+        {
+          "date": "23/06/2024",
+          "value": "10.50",
+          "epochDate": 1719100800000
+        },
+        {
+          "date": "22/06/2024",
+          "value": "10.50",
+          "epochDate": 1719014400000
+        },
+        {
+          "date": "21/06/2024",
+          "value": "10.50",
+          "epochDate": 1718928000000
+        },
+        {
+          "date": "20/06/2024",
+          "value": "10.50",
+          "epochDate": 1718841600000
+        },
+        {
+          "date": "19/06/2024",
+          "value": "10.50",
+          "epochDate": 1718755200000
+        },
+        {
+          "date": "18/06/2024",
+          "value": "10.50",
+          "epochDate": 1718668800000
+        },
+        {
+          "date": "17/06/2024",
+          "value": "10.50",
+          "epochDate": 1718582400000
+        },
+        {
+          "date": "16/06/2024",
+          "value": "10.50",
+          "epochDate": 1718496000000
+        },
+        {
+          "date": "15/06/2024",
+          "value": "10.50",
+          "epochDate": 1718409600000
+        },
+        {
+          "date": "14/06/2024",
+          "value": "10.50",
+          "epochDate": 1718323200000
+        },
+        {
+          "date": "13/06/2024",
+          "value": "10.50",
+          "epochDate": 1718236800000
+        },
+        {
+          "date": "12/06/2024",
+          "value": "10.50",
+          "epochDate": 1718150400000
+        },
+        {
+          "date": "11/06/2024",
+          "value": "10.50",
+          "epochDate": 1718064000000
+        },
+        {
+          "date": "10/06/2024",
+          "value": "10.50",
+          "epochDate": 1717977600000
+        },
+        {
+          "date": "09/06/2024",
+          "value": "10.50",
+          "epochDate": 1717891200000
+        },
+        {
+          "date": "08/06/2024",
+          "value": "10.50",
+          "epochDate": 1717804800000
+        },
+        {
+          "date": "07/06/2024",
+          "value": "10.50",
+          "epochDate": 1717718400000
+        },
+        {
+          "date": "06/06/2024",
+          "value": "10.50",
+          "epochDate": 1717632000000
+        },
+        {
+          "date": "05/06/2024",
+          "value": "10.50",
+          "epochDate": 1717545600000
+        },
+        {
+          "date": "04/06/2024",
+          "value": "10.50",
+          "epochDate": 1717459200000
+        },
+        {
+          "date": "03/06/2024",
+          "value": "10.50",
+          "epochDate": 1717372800000
+        },
+        {
+          "date": "02/06/2024",
+          "value": "10.50",
+          "epochDate": 1717286400000
+        },
+        {
+          "date": "01/06/2024",
+          "value": "10.50",
+          "epochDate": 1717200000000
+        },
+        {
+          "date": "31/05/2024",
+          "value": "10.50",
+          "epochDate": 1717113600000
+        },
+        {
+          "date": "30/05/2024",
+          "value": "10.50",
+          "epochDate": 1717027200000
+        },
+        {
+          "date": "29/05/2024",
+          "value": "10.50",
+          "epochDate": 1716940800000
+        },
+        {
+          "date": "28/05/2024",
+          "value": "10.50",
+          "epochDate": 1716854400000
+        },
+        {
+          "date": "27/05/2024",
+          "value": "10.50",
+          "epochDate": 1716768000000
+        },
+        {
+          "date": "26/05/2024",
+          "value": "10.50",
+          "epochDate": 1716681600000
+        },
+        {
+          "date": "25/05/2024",
+          "value": "10.50",
+          "epochDate": 1716595200000
+        },
+        {
+          "date": "24/05/2024",
+          "value": "10.50",
+          "epochDate": 1716508800000
+        },
+        {
+          "date": "23/05/2024",
+          "value": "10.50",
+          "epochDate": 1716422400000
+        },
+        {
+          "date": "22/05/2024",
+          "value": "10.50",
+          "epochDate": 1716336000000
+        },
+        {
+          "date": "21/05/2024",
+          "value": "10.50",
+          "epochDate": 1716249600000
+        },
+        {
+          "date": "20/05/2024",
+          "value": "10.50",
+          "epochDate": 1716163200000
+        },
+        {
+          "date": "19/05/2024",
+          "value": "10.50",
+          "epochDate": 1716076800000
+        },
+        {
+          "date": "18/05/2024",
+          "value": "10.50",
+          "epochDate": 1715990400000
+        },
+        {
+          "date": "17/05/2024",
+          "value": "10.50",
+          "epochDate": 1715904000000
+        },
+        {
+          "date": "16/05/2024",
+          "value": "10.50",
+          "epochDate": 1715817600000
+        },
+        {
+          "date": "15/05/2024",
+          "value": "10.50",
+          "epochDate": 1715731200000
+        },
+        {
+          "date": "14/05/2024",
+          "value": "10.50",
+          "epochDate": 1715644800000
+        },
+        {
+          "date": "13/05/2024",
+          "value": "10.50",
+          "epochDate": 1715558400000
+        },
+        {
+          "date": "12/05/2024",
+          "value": "10.50",
+          "epochDate": 1715472000000
+        },
+        {
+          "date": "11/05/2024",
+          "value": "10.50",
+          "epochDate": 1715385600000
+        },
+        {
+          "date": "10/05/2024",
+          "value": "10.50",
+          "epochDate": 1715299200000
+        },
+        {
+          "date": "09/05/2024",
+          "value": "10.50",
+          "epochDate": 1715212800000
+        },
+        {
+          "date": "08/05/2024",
+          "value": "10.75",
+          "epochDate": 1715126400000
+        },
+        {
+          "date": "07/05/2024",
+          "value": "10.75",
+          "epochDate": 1715040000000
+        },
+        {
+          "date": "06/05/2024",
+          "value": "10.75",
+          "epochDate": 1714953600000
+        },
+        {
+          "date": "05/05/2024",
+          "value": "10.75",
+          "epochDate": 1714867200000
+        },
+        {
+          "date": "04/05/2024",
+          "value": "10.75",
+          "epochDate": 1714780800000
+        },
+        {
+          "date": "03/05/2024",
+          "value": "10.75",
+          "epochDate": 1714694400000
+        },
+        {
+          "date": "02/05/2024",
+          "value": "10.75",
+          "epochDate": 1714608000000
+        },
+        {
+          "date": "01/05/2024",
+          "value": "10.75",
+          "epochDate": 1714521600000
+        },
+        {
+          "date": "30/04/2024",
+          "value": "10.75",
+          "epochDate": 1714435200000
+        },
+        {
+          "date": "29/04/2024",
+          "value": "10.75",
+          "epochDate": 1714348800000
+        },
+        {
+          "date": "28/04/2024",
+          "value": "10.75",
+          "epochDate": 1714262400000
+        },
+        {
+          "date": "27/04/2024",
+          "value": "10.75",
+          "epochDate": 1714176000000
+        },
+        {
+          "date": "26/04/2024",
+          "value": "10.75",
+          "epochDate": 1714089600000
+        },
+        {
+          "date": "25/04/2024",
+          "value": "10.75",
+          "epochDate": 1714003200000
+        },
+        {
+          "date": "24/04/2024",
+          "value": "10.75",
+          "epochDate": 1713916800000
+        },
+        {
+          "date": "23/04/2024",
+          "value": "10.75",
+          "epochDate": 1713830400000
+        },
+        {
+          "date": "22/04/2024",
+          "value": "10.75",
+          "epochDate": 1713744000000
+        },
+        {
+          "date": "21/04/2024",
+          "value": "10.75",
+          "epochDate": 1713657600000
+        },
+        {
+          "date": "20/04/2024",
+          "value": "10.75",
+          "epochDate": 1713571200000
+        },
+        {
+          "date": "19/04/2024",
+          "value": "10.75",
+          "epochDate": 1713484800000
+        },
+        {
+          "date": "18/04/2024",
+          "value": "10.75",
+          "epochDate": 1713398400000
+        },
+        {
+          "date": "17/04/2024",
+          "value": "10.75",
+          "epochDate": 1713312000000
+        },
+        {
+          "date": "16/04/2024",
+          "value": "10.75",
+          "epochDate": 1713225600000
+        },
+        {
+          "date": "15/04/2024",
+          "value": "10.75",
+          "epochDate": 1713139200000
+        },
+        {
+          "date": "14/04/2024",
+          "value": "10.75",
+          "epochDate": 1713052800000
+        },
+        {
+          "date": "13/04/2024",
+          "value": "10.75",
+          "epochDate": 1712966400000
+        },
+        {
+          "date": "12/04/2024",
+          "value": "10.75",
+          "epochDate": 1712880000000
+        },
+        {
+          "date": "11/04/2024",
+          "value": "10.75",
+          "epochDate": 1712793600000
+        },
+        {
+          "date": "10/04/2024",
+          "value": "10.75",
+          "epochDate": 1712707200000
+        },
+        {
+          "date": "09/04/2024",
+          "value": "10.75",
+          "epochDate": 1712620800000
+        },
+        {
+          "date": "08/04/2024",
+          "value": "10.75",
+          "epochDate": 1712534400000
+        },
+        {
+          "date": "07/04/2024",
+          "value": "10.75",
+          "epochDate": 1712448000000
+        },
+        {
+          "date": "06/04/2024",
+          "value": "10.75",
+          "epochDate": 1712361600000
+        },
+        {
+          "date": "05/04/2024",
+          "value": "10.75",
+          "epochDate": 1712275200000
+        },
+        {
+          "date": "04/04/2024",
+          "value": "10.75",
+          "epochDate": 1712188800000
+        },
+        {
+          "date": "03/04/2024",
+          "value": "10.75",
+          "epochDate": 1712102400000
+        },
+        {
+          "date": "02/04/2024",
+          "value": "10.75",
+          "epochDate": 1712016000000
+        },
+        {
+          "date": "01/04/2024",
+          "value": "10.75",
+          "epochDate": 1711929600000
+        },
+        {
+          "date": "31/03/2024",
+          "value": "10.75",
+          "epochDate": 1711843200000
+        },
+        {
+          "date": "30/03/2024",
+          "value": "10.75",
+          "epochDate": 1711756800000
+        },
+        {
+          "date": "29/03/2024",
+          "value": "10.75",
+          "epochDate": 1711670400000
+        },
+        {
+          "date": "28/03/2024",
+          "value": "10.75",
+          "epochDate": 1711584000000
+        },
+        {
+          "date": "27/03/2024",
+          "value": "10.75",
+          "epochDate": 1711497600000
+        },
+        {
+          "date": "26/03/2024",
+          "value": "10.75",
+          "epochDate": 1711411200000
+        },
+        {
+          "date": "25/03/2024",
+          "value": "10.75",
+          "epochDate": 1711324800000
+        },
+        {
+          "date": "24/03/2024",
+          "value": "10.75",
+          "epochDate": 1711238400000
+        },
+        {
+          "date": "23/03/2024",
+          "value": "10.75",
+          "epochDate": 1711152000000
+        },
+        {
+          "date": "22/03/2024",
+          "value": "10.75",
+          "epochDate": 1711065600000
+        },
+        {
+          "date": "21/03/2024",
+          "value": "10.75",
+          "epochDate": 1710979200000
+        },
+        {
+          "date": "20/03/2024",
+          "value": "11.25",
+          "epochDate": 1710892800000
+        },
+        {
+          "date": "19/03/2024",
+          "value": "11.25",
+          "epochDate": 1710806400000
+        },
+        {
+          "date": "18/03/2024",
+          "value": "11.25",
+          "epochDate": 1710720000000
+        },
+        {
+          "date": "17/03/2024",
+          "value": "11.25",
+          "epochDate": 1710633600000
+        },
+        {
+          "date": "16/03/2024",
+          "value": "11.25",
+          "epochDate": 1710547200000
+        },
+        {
+          "date": "15/03/2024",
+          "value": "11.25",
+          "epochDate": 1710460800000
+        },
+        {
+          "date": "14/03/2024",
+          "value": "11.25",
+          "epochDate": 1710374400000
+        },
+        {
+          "date": "13/03/2024",
+          "value": "11.25",
+          "epochDate": 1710288000000
+        },
+        {
+          "date": "12/03/2024",
+          "value": "11.25",
+          "epochDate": 1710201600000
+        },
+        {
+          "date": "11/03/2024",
+          "value": "11.25",
+          "epochDate": 1710115200000
+        },
+        {
+          "date": "10/03/2024",
+          "value": "11.25",
+          "epochDate": 1710028800000
+        },
+        {
+          "date": "09/03/2024",
+          "value": "11.25",
+          "epochDate": 1709942400000
+        },
+        {
+          "date": "08/03/2024",
+          "value": "11.25",
+          "epochDate": 1709856000000
+        },
+        {
+          "date": "07/03/2024",
+          "value": "11.25",
+          "epochDate": 1709769600000
+        },
+        {
+          "date": "06/03/2024",
+          "value": "11.25",
+          "epochDate": 1709683200000
+        },
+        {
+          "date": "05/03/2024",
+          "value": "11.25",
+          "epochDate": 1709596800000
+        },
+        {
+          "date": "04/03/2024",
+          "value": "11.25",
+          "epochDate": 1709510400000
+        },
+        {
+          "date": "03/03/2024",
+          "value": "11.25",
+          "epochDate": 1709424000000
+        },
+        {
+          "date": "02/03/2024",
+          "value": "11.25",
+          "epochDate": 1709337600000
+        },
+        {
+          "date": "01/03/2024",
+          "value": "11.25",
+          "epochDate": 1709251200000
+        },
+        {
+          "date": "29/02/2024",
+          "value": "11.25",
+          "epochDate": 1709164800000
+        },
+        {
+          "date": "28/02/2024",
+          "value": "11.25",
+          "epochDate": 1709078400000
+        },
+        {
+          "date": "27/02/2024",
+          "value": "11.25",
+          "epochDate": 1708992000000
+        },
+        {
+          "date": "26/02/2024",
+          "value": "11.25",
+          "epochDate": 1708905600000
+        },
+        {
+          "date": "25/02/2024",
+          "value": "11.25",
+          "epochDate": 1708819200000
+        },
+        {
+          "date": "24/02/2024",
+          "value": "11.25",
+          "epochDate": 1708732800000
+        },
+        {
+          "date": "23/02/2024",
+          "value": "11.25",
+          "epochDate": 1708646400000
+        },
+        {
+          "date": "22/02/2024",
+          "value": "11.25",
+          "epochDate": 1708560000000
+        },
+        {
+          "date": "21/02/2024",
+          "value": "11.25",
+          "epochDate": 1708473600000
+        },
+        {
+          "date": "20/02/2024",
+          "value": "11.25",
+          "epochDate": 1708387200000
+        },
+        {
+          "date": "19/02/2024",
+          "value": "11.25",
+          "epochDate": 1708300800000
+        },
+        {
+          "date": "18/02/2024",
+          "value": "11.25",
+          "epochDate": 1708214400000
+        },
+        {
+          "date": "17/02/2024",
+          "value": "11.25",
+          "epochDate": 1708128000000
+        },
+        {
+          "date": "16/02/2024",
+          "value": "11.25",
+          "epochDate": 1708041600000
+        },
+        {
+          "date": "15/02/2024",
+          "value": "11.25",
+          "epochDate": 1707955200000
+        },
+        {
+          "date": "14/02/2024",
+          "value": "11.25",
+          "epochDate": 1707868800000
+        },
+        {
+          "date": "13/02/2024",
+          "value": "11.25",
+          "epochDate": 1707782400000
+        },
+        {
+          "date": "12/02/2024",
+          "value": "11.25",
+          "epochDate": 1707696000000
+        },
+        {
+          "date": "11/02/2024",
+          "value": "11.25",
+          "epochDate": 1707609600000
+        },
+        {
+          "date": "10/02/2024",
+          "value": "11.25",
+          "epochDate": 1707523200000
+        },
+        {
+          "date": "09/02/2024",
+          "value": "11.25",
+          "epochDate": 1707436800000
+        },
+        {
+          "date": "08/02/2024",
+          "value": "11.25",
+          "epochDate": 1707350400000
+        },
+        {
+          "date": "07/02/2024",
+          "value": "11.25",
+          "epochDate": 1707264000000
+        },
+        {
+          "date": "06/02/2024",
+          "value": "11.25",
+          "epochDate": 1707177600000
+        },
+        {
+          "date": "05/02/2024",
+          "value": "11.25",
+          "epochDate": 1707091200000
+        },
+        {
+          "date": "04/02/2024",
+          "value": "11.25",
+          "epochDate": 1707004800000
+        },
+        {
+          "date": "03/02/2024",
+          "value": "11.25",
+          "epochDate": 1706918400000
+        },
+        {
+          "date": "02/02/2024",
+          "value": "11.25",
+          "epochDate": 1706832000000
+        },
+        {
+          "date": "01/02/2024",
+          "value": "11.25",
+          "epochDate": 1706745600000
+        },
+        {
+          "date": "31/01/2024",
+          "value": "11.75",
+          "epochDate": 1706659200000
+        },
+        {
+          "date": "30/01/2024",
+          "value": "11.75",
+          "epochDate": 1706572800000
+        },
+        {
+          "date": "29/01/2024",
+          "value": "11.75",
+          "epochDate": 1706486400000
+        },
+        {
+          "date": "28/01/2024",
+          "value": "11.75",
+          "epochDate": 1706400000000
+        },
+        {
+          "date": "27/01/2024",
+          "value": "11.75",
+          "epochDate": 1706313600000
+        },
+        {
+          "date": "26/01/2024",
+          "value": "11.75",
+          "epochDate": 1706227200000
+        },
+        {
+          "date": "25/01/2024",
+          "value": "11.75",
+          "epochDate": 1706140800000
+        },
+        {
+          "date": "24/01/2024",
+          "value": "11.75",
+          "epochDate": 1706054400000
+        },
+        {
+          "date": "23/01/2024",
+          "value": "11.75",
+          "epochDate": 1705968000000
+        },
+        {
+          "date": "22/01/2024",
+          "value": "11.75",
+          "epochDate": 1705881600000
+        },
+        {
+          "date": "21/01/2024",
+          "value": "11.75",
+          "epochDate": 1705795200000
+        },
+        {
+          "date": "20/01/2024",
+          "value": "11.75",
+          "epochDate": 1705708800000
+        },
+        {
+          "date": "19/01/2024",
+          "value": "11.75",
+          "epochDate": 1705622400000
+        },
+        {
+          "date": "18/01/2024",
+          "value": "11.75",
+          "epochDate": 1705536000000
+        },
+        {
+          "date": "17/01/2024",
+          "value": "11.75",
+          "epochDate": 1705449600000
+        },
+        {
+          "date": "16/01/2024",
+          "value": "11.75",
+          "epochDate": 1705363200000
+        },
+        {
+          "date": "15/01/2024",
+          "value": "11.75",
+          "epochDate": 1705276800000
+        },
+        {
+          "date": "14/01/2024",
+          "value": "11.75",
+          "epochDate": 1705190400000
+        },
+        {
+          "date": "13/01/2024",
+          "value": "11.75",
+          "epochDate": 1705104000000
+        },
+        {
+          "date": "12/01/2024",
+          "value": "11.75",
+          "epochDate": 1705017600000
+        },
+        {
+          "date": "11/01/2024",
+          "value": "11.75",
+          "epochDate": 1704931200000
+        },
+        {
+          "date": "10/01/2024",
+          "value": "11.75",
+          "epochDate": 1704844800000
+        },
+        {
+          "date": "09/01/2024",
+          "value": "11.75",
+          "epochDate": 1704758400000
+        },
+        {
+          "date": "08/01/2024",
+          "value": "11.75",
+          "epochDate": 1704672000000
+        },
+        {
+          "date": "07/01/2024",
+          "value": "11.75",
+          "epochDate": 1704585600000
+        },
+        {
+          "date": "06/01/2024",
+          "value": "11.75",
+          "epochDate": 1704499200000
+        },
+        {
+          "date": "05/01/2024",
+          "value": "11.75",
+          "epochDate": 1704412800000
+        },
+        {
+          "date": "04/01/2024",
+          "value": "11.75",
+          "epochDate": 1704326400000
+        },
+        {
+          "date": "03/01/2024",
+          "value": "11.75",
+          "epochDate": 1704240000000
+        },
+        {
+          "date": "02/01/2024",
+          "value": "11.75",
+          "epochDate": 1704153600000
+        },
+        {
+          "date": "01/01/2024",
+          "value": "11.75",
+          "epochDate": 1704067200000
+        },
+        {
+          "date": "31/12/2023",
+          "value": "11.75",
+          "epochDate": 1703980800000
+        },
+        {
+          "date": "30/12/2023",
+          "value": "11.75",
+          "epochDate": 1703894400000
+        },
+        {
+          "date": "29/12/2023",
+          "value": "11.75",
+          "epochDate": 1703808000000
+        },
+        {
+          "date": "28/12/2023",
+          "value": "11.75",
+          "epochDate": 1703721600000
+        },
+        {
+          "date": "27/12/2023",
+          "value": "11.75",
+          "epochDate": 1703635200000
+        },
+        {
+          "date": "26/12/2023",
+          "value": "11.75",
+          "epochDate": 1703548800000
+        },
+        {
+          "date": "25/12/2023",
+          "value": "11.75",
+          "epochDate": 1703462400000
+        },
+        {
+          "date": "24/12/2023",
+          "value": "11.75",
+          "epochDate": 1703376000000
+        },
+        {
+          "date": "23/12/2023",
+          "value": "11.75",
+          "epochDate": 1703289600000
+        },
+        {
+          "date": "22/12/2023",
+          "value": "11.75",
+          "epochDate": 1703203200000
+        },
+        {
+          "date": "21/12/2023",
+          "value": "11.75",
+          "epochDate": 1703116800000
+        },
+        {
+          "date": "20/12/2023",
+          "value": "11.75",
+          "epochDate": 1703030400000
+        },
+        {
+          "date": "19/12/2023",
+          "value": "11.75",
+          "epochDate": 1702944000000
+        },
+        {
+          "date": "18/12/2023",
+          "value": "11.75",
+          "epochDate": 1702857600000
+        },
+        {
+          "date": "17/12/2023",
+          "value": "11.75",
+          "epochDate": 1702771200000
+        },
+        {
+          "date": "16/12/2023",
+          "value": "11.75",
+          "epochDate": 1702684800000
+        },
+        {
+          "date": "15/12/2023",
+          "value": "11.75",
+          "epochDate": 1702598400000
+        },
+        {
+          "date": "14/12/2023",
+          "value": "11.75",
+          "epochDate": 1702512000000
+        },
+        {
+          "date": "13/12/2023",
+          "value": "12.25",
+          "epochDate": 1702425600000
+        },
+        {
+          "date": "12/12/2023",
+          "value": "12.25",
+          "epochDate": 1702339200000
+        },
+        {
+          "date": "11/12/2023",
+          "value": "12.25",
+          "epochDate": 1702252800000
+        },
+        {
+          "date": "10/12/2023",
+          "value": "12.25",
+          "epochDate": 1702166400000
+        },
+        {
+          "date": "09/12/2023",
+          "value": "12.25",
+          "epochDate": 1702080000000
+        },
+        {
+          "date": "08/12/2023",
+          "value": "12.25",
+          "epochDate": 1701993600000
+        },
+        {
+          "date": "07/12/2023",
+          "value": "12.25",
+          "epochDate": 1701907200000
+        },
+        {
+          "date": "06/12/2023",
+          "value": "12.25",
+          "epochDate": 1701820800000
+        },
+        {
+          "date": "05/12/2023",
+          "value": "12.25",
+          "epochDate": 1701734400000
+        },
+        {
+          "date": "04/12/2023",
+          "value": "12.25",
+          "epochDate": 1701648000000
+        },
+        {
+          "date": "03/12/2023",
+          "value": "12.25",
+          "epochDate": 1701561600000
+        },
+        {
+          "date": "02/12/2023",
+          "value": "12.25",
+          "epochDate": 1701475200000
+        },
+        {
+          "date": "01/12/2023",
+          "value": "12.25",
+          "epochDate": 1701388800000
+        },
+        {
+          "date": "30/11/2023",
+          "value": "12.25",
+          "epochDate": 1701302400000
+        },
+        {
+          "date": "29/11/2023",
+          "value": "12.25",
+          "epochDate": 1701216000000
+        },
+        {
+          "date": "28/11/2023",
+          "value": "12.25",
+          "epochDate": 1701129600000
+        },
+        {
+          "date": "27/11/2023",
+          "value": "12.25",
+          "epochDate": 1701043200000
+        },
+        {
+          "date": "26/11/2023",
+          "value": "12.25",
+          "epochDate": 1700956800000
+        },
+        {
+          "date": "25/11/2023",
+          "value": "12.25",
+          "epochDate": 1700870400000
+        },
+        {
+          "date": "24/11/2023",
+          "value": "12.25",
+          "epochDate": 1700784000000
+        },
+        {
+          "date": "23/11/2023",
+          "value": "12.25",
+          "epochDate": 1700697600000
+        },
+        {
+          "date": "22/11/2023",
+          "value": "12.25",
+          "epochDate": 1700611200000
+        },
+        {
+          "date": "21/11/2023",
+          "value": "12.25",
+          "epochDate": 1700524800000
+        },
+        {
+          "date": "20/11/2023",
+          "value": "12.25",
+          "epochDate": 1700438400000
+        },
+        {
+          "date": "19/11/2023",
+          "value": "12.25",
+          "epochDate": 1700352000000
+        },
+        {
+          "date": "18/11/2023",
+          "value": "12.25",
+          "epochDate": 1700265600000
+        },
+        {
+          "date": "17/11/2023",
+          "value": "12.25",
+          "epochDate": 1700179200000
+        },
+        {
+          "date": "16/11/2023",
+          "value": "12.25",
+          "epochDate": 1700092800000
+        },
+        {
+          "date": "15/11/2023",
+          "value": "12.25",
+          "epochDate": 1700006400000
+        },
+        {
+          "date": "14/11/2023",
+          "value": "12.25",
+          "epochDate": 1699920000000
+        },
+        {
+          "date": "13/11/2023",
+          "value": "12.25",
+          "epochDate": 1699833600000
+        },
+        {
+          "date": "12/11/2023",
+          "value": "12.25",
+          "epochDate": 1699747200000
+        },
+        {
+          "date": "11/11/2023",
+          "value": "12.25",
+          "epochDate": 1699660800000
+        },
+        {
+          "date": "10/11/2023",
+          "value": "12.25",
+          "epochDate": 1699574400000
+        },
+        {
+          "date": "09/11/2023",
+          "value": "12.25",
+          "epochDate": 1699488000000
+        },
+        {
+          "date": "08/11/2023",
+          "value": "12.25",
+          "epochDate": 1699401600000
+        },
+        {
+          "date": "07/11/2023",
+          "value": "12.25",
+          "epochDate": 1699315200000
+        },
+        {
+          "date": "06/11/2023",
+          "value": "12.25",
+          "epochDate": 1699228800000
+        },
+        {
+          "date": "05/11/2023",
+          "value": "12.25",
+          "epochDate": 1699142400000
+        },
+        {
+          "date": "04/11/2023",
+          "value": "12.25",
+          "epochDate": 1699056000000
+        },
+        {
+          "date": "03/11/2023",
+          "value": "12.25",
+          "epochDate": 1698969600000
+        },
+        {
+          "date": "02/11/2023",
+          "value": "12.25",
+          "epochDate": 1698883200000
+        },
+        {
+          "date": "01/11/2023",
+          "value": "12.75",
+          "epochDate": 1698796800000
+        },
+        {
+          "date": "31/10/2023",
+          "value": "12.75",
+          "epochDate": 1698710400000
+        },
+        {
+          "date": "30/10/2023",
+          "value": "12.75",
+          "epochDate": 1698624000000
+        },
+        {
+          "date": "29/10/2023",
+          "value": "12.75",
+          "epochDate": 1698537600000
+        },
+        {
+          "date": "28/10/2023",
+          "value": "12.75",
+          "epochDate": 1698451200000
+        },
+        {
+          "date": "27/10/2023",
+          "value": "12.75",
+          "epochDate": 1698364800000
+        },
+        {
+          "date": "26/10/2023",
+          "value": "12.75",
+          "epochDate": 1698278400000
+        },
+        {
+          "date": "25/10/2023",
+          "value": "12.75",
+          "epochDate": 1698192000000
+        },
+        {
+          "date": "24/10/2023",
+          "value": "12.75",
+          "epochDate": 1698105600000
+        },
+        {
+          "date": "23/10/2023",
+          "value": "12.75",
+          "epochDate": 1698019200000
+        },
+        {
+          "date": "22/10/2023",
+          "value": "12.75",
+          "epochDate": 1697932800000
+        },
+        {
+          "date": "21/10/2023",
+          "value": "12.75",
+          "epochDate": 1697846400000
+        },
+        {
+          "date": "20/10/2023",
+          "value": "12.75",
+          "epochDate": 1697760000000
+        },
+        {
+          "date": "19/10/2023",
+          "value": "12.75",
+          "epochDate": 1697673600000
+        },
+        {
+          "date": "18/10/2023",
+          "value": "12.75",
+          "epochDate": 1697587200000
+        },
+        {
+          "date": "17/10/2023",
+          "value": "12.75",
+          "epochDate": 1697500800000
+        },
+        {
+          "date": "16/10/2023",
+          "value": "12.75",
+          "epochDate": 1697414400000
+        },
+        {
+          "date": "15/10/2023",
+          "value": "12.75",
+          "epochDate": 1697328000000
+        },
+        {
+          "date": "14/10/2023",
+          "value": "12.75",
+          "epochDate": 1697241600000
+        },
+        {
+          "date": "13/10/2023",
+          "value": "12.75",
+          "epochDate": 1697155200000
+        },
+        {
+          "date": "12/10/2023",
+          "value": "12.75",
+          "epochDate": 1697068800000
+        },
+        {
+          "date": "11/10/2023",
+          "value": "12.75",
+          "epochDate": 1696982400000
+        },
+        {
+          "date": "10/10/2023",
+          "value": "12.75",
+          "epochDate": 1696896000000
+        },
+        {
+          "date": "09/10/2023",
+          "value": "12.75",
+          "epochDate": 1696809600000
+        },
+        {
+          "date": "08/10/2023",
+          "value": "12.75",
+          "epochDate": 1696723200000
+        },
+        {
+          "date": "07/10/2023",
+          "value": "12.75",
+          "epochDate": 1696636800000
+        },
+        {
+          "date": "06/10/2023",
+          "value": "12.75",
+          "epochDate": 1696550400000
+        },
+        {
+          "date": "05/10/2023",
+          "value": "12.75",
+          "epochDate": 1696464000000
+        },
+        {
+          "date": "04/10/2023",
+          "value": "12.75",
+          "epochDate": 1696377600000
+        },
+        {
+          "date": "03/10/2023",
+          "value": "12.75",
+          "epochDate": 1696291200000
+        },
+        {
+          "date": "02/10/2023",
+          "value": "12.75",
+          "epochDate": 1696204800000
+        },
+        {
+          "date": "01/10/2023",
+          "value": "12.75",
+          "epochDate": 1696118400000
+        },
+        {
+          "date": "30/09/2023",
+          "value": "12.75",
+          "epochDate": 1696032000000
+        },
+        {
+          "date": "29/09/2023",
+          "value": "12.75",
+          "epochDate": 1695945600000
+        },
+        {
+          "date": "28/09/2023",
+          "value": "12.75",
+          "epochDate": 1695859200000
+        },
+        {
+          "date": "27/09/2023",
+          "value": "12.75",
+          "epochDate": 1695772800000
+        },
+        {
+          "date": "26/09/2023",
+          "value": "12.75",
+          "epochDate": 1695686400000
+        },
+        {
+          "date": "25/09/2023",
+          "value": "12.75",
+          "epochDate": 1695600000000
+        },
+        {
+          "date": "24/09/2023",
+          "value": "12.75",
+          "epochDate": 1695513600000
+        },
+        {
+          "date": "23/09/2023",
+          "value": "12.75",
+          "epochDate": 1695427200000
+        },
+        {
+          "date": "22/09/2023",
+          "value": "12.75",
+          "epochDate": 1695340800000
+        },
+        {
+          "date": "21/09/2023",
+          "value": "12.75",
+          "epochDate": 1695254400000
+        },
+        {
+          "date": "20/09/2023",
+          "value": "13.25",
+          "epochDate": 1695168000000
+        },
+        {
+          "date": "19/09/2023",
+          "value": "13.25",
+          "epochDate": 1695081600000
+        },
+        {
+          "date": "18/09/2023",
+          "value": "13.25",
+          "epochDate": 1694995200000
+        },
+        {
+          "date": "17/09/2023",
+          "value": "13.25",
+          "epochDate": 1694908800000
+        },
+        {
+          "date": "16/09/2023",
+          "value": "13.25",
+          "epochDate": 1694822400000
+        },
+        {
+          "date": "15/09/2023",
+          "value": "13.25",
+          "epochDate": 1694736000000
+        },
+        {
+          "date": "14/09/2023",
+          "value": "13.25",
+          "epochDate": 1694649600000
+        },
+        {
+          "date": "13/09/2023",
+          "value": "13.25",
+          "epochDate": 1694563200000
+        },
+        {
+          "date": "12/09/2023",
+          "value": "13.25",
+          "epochDate": 1694476800000
+        },
+        {
+          "date": "11/09/2023",
+          "value": "13.25",
+          "epochDate": 1694390400000
+        },
+        {
+          "date": "10/09/2023",
+          "value": "13.25",
+          "epochDate": 1694304000000
+        },
+        {
+          "date": "09/09/2023",
+          "value": "13.25",
+          "epochDate": 1694217600000
+        },
+        {
+          "date": "08/09/2023",
+          "value": "13.25",
+          "epochDate": 1694131200000
+        },
+        {
+          "date": "07/09/2023",
+          "value": "13.25",
+          "epochDate": 1694044800000
+        },
+        {
+          "date": "06/09/2023",
+          "value": "13.25",
+          "epochDate": 1693958400000
+        },
+        {
+          "date": "05/09/2023",
+          "value": "13.25",
+          "epochDate": 1693872000000
+        },
+        {
+          "date": "04/09/2023",
+          "value": "13.25",
+          "epochDate": 1693785600000
+        },
+        {
+          "date": "03/09/2023",
+          "value": "13.25",
+          "epochDate": 1693699200000
+        },
+        {
+          "date": "02/09/2023",
+          "value": "13.25",
+          "epochDate": 1693612800000
+        },
+        {
+          "date": "01/09/2023",
+          "value": "13.25",
+          "epochDate": 1693526400000
+        },
+        {
+          "date": "31/08/2023",
+          "value": "13.25",
+          "epochDate": 1693440000000
+        },
+        {
+          "date": "30/08/2023",
+          "value": "13.25",
+          "epochDate": 1693353600000
+        },
+        {
+          "date": "29/08/2023",
+          "value": "13.25",
+          "epochDate": 1693267200000
+        },
+        {
+          "date": "28/08/2023",
+          "value": "13.25",
+          "epochDate": 1693180800000
+        },
+        {
+          "date": "27/08/2023",
+          "value": "13.25",
+          "epochDate": 1693094400000
+        },
+        {
+          "date": "26/08/2023",
+          "value": "13.25",
+          "epochDate": 1693008000000
+        },
+        {
+          "date": "25/08/2023",
+          "value": "13.25",
+          "epochDate": 1692921600000
+        },
+        {
+          "date": "24/08/2023",
+          "value": "13.25",
+          "epochDate": 1692835200000
+        },
+        {
+          "date": "23/08/2023",
+          "value": "13.25",
+          "epochDate": 1692748800000
+        },
+        {
+          "date": "22/08/2023",
+          "value": "13.25",
+          "epochDate": 1692662400000
+        },
+        {
+          "date": "21/08/2023",
+          "value": "13.25",
+          "epochDate": 1692576000000
+        },
+        {
+          "date": "20/08/2023",
+          "value": "13.25",
+          "epochDate": 1692489600000
+        },
+        {
+          "date": "19/08/2023",
+          "value": "13.25",
+          "epochDate": 1692403200000
+        },
+        {
+          "date": "18/08/2023",
+          "value": "13.25",
+          "epochDate": 1692316800000
+        },
+        {
+          "date": "17/08/2023",
+          "value": "13.25",
+          "epochDate": 1692230400000
+        },
+        {
+          "date": "16/08/2023",
+          "value": "13.25",
+          "epochDate": 1692144000000
+        },
+        {
+          "date": "15/08/2023",
+          "value": "13.25",
+          "epochDate": 1692057600000
+        },
+        {
+          "date": "14/08/2023",
+          "value": "13.25",
+          "epochDate": 1691971200000
+        },
+        {
+          "date": "13/08/2023",
+          "value": "13.25",
+          "epochDate": 1691884800000
+        },
+        {
+          "date": "12/08/2023",
+          "value": "13.25",
+          "epochDate": 1691798400000
+        },
+        {
+          "date": "11/08/2023",
+          "value": "13.25",
+          "epochDate": 1691712000000
+        },
+        {
+          "date": "10/08/2023",
+          "value": "13.25",
+          "epochDate": 1691625600000
+        },
+        {
+          "date": "09/08/2023",
+          "value": "13.25",
+          "epochDate": 1691539200000
+        },
+        {
+          "date": "08/08/2023",
+          "value": "13.25",
+          "epochDate": 1691452800000
+        },
+        {
+          "date": "07/08/2023",
+          "value": "13.25",
+          "epochDate": 1691366400000
+        },
+        {
+          "date": "06/08/2023",
+          "value": "13.25",
+          "epochDate": 1691280000000
+        },
+        {
+          "date": "05/08/2023",
+          "value": "13.25",
+          "epochDate": 1691193600000
+        },
+        {
+          "date": "04/08/2023",
+          "value": "13.25",
+          "epochDate": 1691107200000
+        },
+        {
+          "date": "03/08/2023",
+          "value": "13.25",
+          "epochDate": 1691020800000
+        },
+        {
+          "date": "02/08/2023",
+          "value": "13.75",
+          "epochDate": 1690934400000
+        },
+        {
+          "date": "01/08/2023",
+          "value": "13.75",
+          "epochDate": 1690848000000
+        },
+        {
+          "date": "31/07/2023",
+          "value": "13.75",
+          "epochDate": 1690761600000
+        },
+        {
+          "date": "30/07/2023",
+          "value": "13.75",
+          "epochDate": 1690675200000
+        },
+        {
+          "date": "29/07/2023",
+          "value": "13.75",
+          "epochDate": 1690588800000
+        },
+        {
+          "date": "28/07/2023",
+          "value": "13.75",
+          "epochDate": 1690502400000
+        },
+        {
+          "date": "27/07/2023",
+          "value": "13.75",
+          "epochDate": 1690416000000
+        },
+        {
+          "date": "26/07/2023",
+          "value": "13.75",
+          "epochDate": 1690329600000
+        },
+        {
+          "date": "25/07/2023",
+          "value": "13.75",
+          "epochDate": 1690243200000
+        },
+        {
+          "date": "24/07/2023",
+          "value": "13.75",
+          "epochDate": 1690156800000
+        },
+        {
+          "date": "23/07/2023",
+          "value": "13.75",
+          "epochDate": 1690070400000
+        },
+        {
+          "date": "22/07/2023",
+          "value": "13.75",
+          "epochDate": 1689984000000
+        },
+        {
+          "date": "21/07/2023",
+          "value": "13.75",
+          "epochDate": 1689897600000
+        },
+        {
+          "date": "20/07/2023",
+          "value": "13.75",
+          "epochDate": 1689811200000
+        },
+        {
+          "date": "19/07/2023",
+          "value": "13.75",
+          "epochDate": 1689724800000
+        },
+        {
+          "date": "18/07/2023",
+          "value": "13.75",
+          "epochDate": 1689638400000
+        },
+        {
+          "date": "17/07/2023",
+          "value": "13.75",
+          "epochDate": 1689552000000
+        },
+        {
+          "date": "16/07/2023",
+          "value": "13.75",
+          "epochDate": 1689465600000
+        },
+        {
+          "date": "15/07/2023",
+          "value": "13.75",
+          "epochDate": 1689379200000
+        },
+        {
+          "date": "14/07/2023",
+          "value": "13.75",
+          "epochDate": 1689292800000
+        },
+        {
+          "date": "13/07/2023",
+          "value": "13.75",
+          "epochDate": 1689206400000
+        },
+        {
+          "date": "12/07/2023",
+          "value": "13.75",
+          "epochDate": 1689120000000
+        },
+        {
+          "date": "11/07/2023",
+          "value": "13.75",
+          "epochDate": 1689033600000
+        },
+        {
+          "date": "10/07/2023",
+          "value": "13.75",
+          "epochDate": 1688947200000
+        },
+        {
+          "date": "09/07/2023",
+          "value": "13.75",
+          "epochDate": 1688860800000
+        },
+        {
+          "date": "08/07/2023",
+          "value": "13.75",
+          "epochDate": 1688774400000
+        },
+        {
+          "date": "07/07/2023",
+          "value": "13.75",
+          "epochDate": 1688688000000
+        },
+        {
+          "date": "06/07/2023",
+          "value": "13.75",
+          "epochDate": 1688601600000
+        },
+        {
+          "date": "05/07/2023",
+          "value": "13.75",
+          "epochDate": 1688515200000
+        },
+        {
+          "date": "04/07/2023",
+          "value": "13.75",
+          "epochDate": 1688428800000
+        },
+        {
+          "date": "03/07/2023",
+          "value": "13.75",
+          "epochDate": 1688342400000
+        },
+        {
+          "date": "02/07/2023",
+          "value": "13.75",
+          "epochDate": 1688256000000
+        },
+        {
+          "date": "01/07/2023",
+          "value": "13.75",
+          "epochDate": 1688169600000
+        },
+        {
+          "date": "30/06/2023",
+          "value": "13.75",
+          "epochDate": 1688083200000
+        },
+        {
+          "date": "29/06/2023",
+          "value": "13.75",
+          "epochDate": 1687996800000
+        },
+        {
+          "date": "28/06/2023",
+          "value": "13.75",
+          "epochDate": 1687910400000
+        },
+        {
+          "date": "27/06/2023",
+          "value": "13.75",
+          "epochDate": 1687824000000
+        },
+        {
+          "date": "26/06/2023",
+          "value": "13.75",
+          "epochDate": 1687737600000
+        },
+        {
+          "date": "25/06/2023",
+          "value": "13.75",
+          "epochDate": 1687651200000
+        },
+        {
+          "date": "24/06/2023",
+          "value": "13.75",
+          "epochDate": 1687564800000
+        },
+        {
+          "date": "23/06/2023",
+          "value": "13.75",
+          "epochDate": 1687478400000
+        },
+        {
+          "date": "22/06/2023",
+          "value": "13.75",
+          "epochDate": 1687392000000
+        },
+        {
+          "date": "21/06/2023",
+          "value": "13.75",
+          "epochDate": 1687305600000
+        },
+        {
+          "date": "20/06/2023",
+          "value": "13.75",
+          "epochDate": 1687219200000
+        },
+        {
+          "date": "19/06/2023",
+          "value": "13.75",
+          "epochDate": 1687132800000
+        },
+        {
+          "date": "18/06/2023",
+          "value": "13.75",
+          "epochDate": 1687046400000
+        },
+        {
+          "date": "17/06/2023",
+          "value": "13.75",
+          "epochDate": 1686960000000
+        },
+        {
+          "date": "16/06/2023",
+          "value": "13.75",
+          "epochDate": 1686873600000
+        },
+        {
+          "date": "15/06/2023",
+          "value": "13.75",
+          "epochDate": 1686787200000
+        },
+        {
+          "date": "14/06/2023",
+          "value": "13.75",
+          "epochDate": 1686700800000
+        },
+        {
+          "date": "13/06/2023",
+          "value": "13.75",
+          "epochDate": 1686614400000
+        },
+        {
+          "date": "12/06/2023",
+          "value": "13.75",
+          "epochDate": 1686528000000
+        },
+        {
+          "date": "11/06/2023",
+          "value": "13.75",
+          "epochDate": 1686441600000
+        },
+        {
+          "date": "10/06/2023",
+          "value": "13.75",
+          "epochDate": 1686355200000
+        },
+        {
+          "date": "09/06/2023",
+          "value": "13.75",
+          "epochDate": 1686268800000
+        },
+        {
+          "date": "08/06/2023",
+          "value": "13.75",
+          "epochDate": 1686182400000
+        },
+        {
+          "date": "07/06/2023",
+          "value": "13.75",
+          "epochDate": 1686096000000
+        },
+        {
+          "date": "06/06/2023",
+          "value": "13.75",
+          "epochDate": 1686009600000
+        },
+        {
+          "date": "05/06/2023",
+          "value": "13.75",
+          "epochDate": 1685923200000
+        },
+        {
+          "date": "04/06/2023",
+          "value": "13.75",
+          "epochDate": 1685836800000
+        },
+        {
+          "date": "03/06/2023",
+          "value": "13.75",
+          "epochDate": 1685750400000
+        },
+        {
+          "date": "02/06/2023",
+          "value": "13.75",
+          "epochDate": 1685664000000
+        },
+        {
+          "date": "01/06/2023",
+          "value": "13.75",
+          "epochDate": 1685577600000
+        },
+        {
+          "date": "31/05/2023",
+          "value": "13.75",
+          "epochDate": 1685491200000
+        },
+        {
+          "date": "30/05/2023",
+          "value": "13.75",
+          "epochDate": 1685404800000
+        },
+        {
+          "date": "29/05/2023",
+          "value": "13.75",
+          "epochDate": 1685318400000
+        },
+        {
+          "date": "28/05/2023",
+          "value": "13.75",
+          "epochDate": 1685232000000
+        },
+        {
+          "date": "27/05/2023",
+          "value": "13.75",
+          "epochDate": 1685145600000
+        },
+        {
+          "date": "26/05/2023",
+          "value": "13.75",
+          "epochDate": 1685059200000
+        },
+        {
+          "date": "25/05/2023",
+          "value": "13.75",
+          "epochDate": 1684972800000
+        },
+        {
+          "date": "24/05/2023",
+          "value": "13.75",
+          "epochDate": 1684886400000
+        },
+        {
+          "date": "23/05/2023",
+          "value": "13.75",
+          "epochDate": 1684800000000
+        },
+        {
+          "date": "22/05/2023",
+          "value": "13.75",
+          "epochDate": 1684713600000
+        },
+        {
+          "date": "21/05/2023",
+          "value": "13.75",
+          "epochDate": 1684627200000
+        },
+        {
+          "date": "20/05/2023",
+          "value": "13.75",
+          "epochDate": 1684540800000
+        },
+        {
+          "date": "19/05/2023",
+          "value": "13.75",
+          "epochDate": 1684454400000
+        },
+        {
+          "date": "18/05/2023",
+          "value": "13.75",
+          "epochDate": 1684368000000
+        },
+        {
+          "date": "17/05/2023",
+          "value": "13.75",
+          "epochDate": 1684281600000
+        },
+        {
+          "date": "16/05/2023",
+          "value": "13.75",
+          "epochDate": 1684195200000
+        },
+        {
+          "date": "15/05/2023",
+          "value": "13.75",
+          "epochDate": 1684108800000
+        },
+        {
+          "date": "14/05/2023",
+          "value": "13.75",
+          "epochDate": 1684022400000
+        },
+        {
+          "date": "13/05/2023",
+          "value": "13.75",
+          "epochDate": 1683936000000
+        },
+        {
+          "date": "12/05/2023",
+          "value": "13.75",
+          "epochDate": 1683849600000
+        },
+        {
+          "date": "11/05/2023",
+          "value": "13.75",
+          "epochDate": 1683763200000
+        },
+        {
+          "date": "10/05/2023",
+          "value": "13.75",
+          "epochDate": 1683676800000
+        },
+        {
+          "date": "09/05/2023",
+          "value": "13.75",
+          "epochDate": 1683590400000
+        },
+        {
+          "date": "08/05/2023",
+          "value": "13.75",
+          "epochDate": 1683504000000
+        },
+        {
+          "date": "07/05/2023",
+          "value": "13.75",
+          "epochDate": 1683417600000
+        },
+        {
+          "date": "06/05/2023",
+          "value": "13.75",
+          "epochDate": 1683331200000
+        },
+        {
+          "date": "05/05/2023",
+          "value": "13.75",
+          "epochDate": 1683244800000
+        },
+        {
+          "date": "04/05/2023",
+          "value": "13.75",
+          "epochDate": 1683158400000
+        },
+        {
+          "date": "03/05/2023",
+          "value": "13.75",
+          "epochDate": 1683072000000
+        },
+        {
+          "date": "02/05/2023",
+          "value": "13.75",
+          "epochDate": 1682985600000
+        },
+        {
+          "date": "01/05/2023",
+          "value": "13.75",
+          "epochDate": 1682899200000
+        },
+        {
+          "date": "30/04/2023",
+          "value": "13.75",
+          "epochDate": 1682812800000
+        },
+        {
+          "date": "29/04/2023",
+          "value": "13.75",
+          "epochDate": 1682726400000
+        },
+        {
+          "date": "28/04/2023",
+          "value": "13.75",
+          "epochDate": 1682640000000
+        },
+        {
+          "date": "27/04/2023",
+          "value": "13.75",
+          "epochDate": 1682553600000
+        },
+        {
+          "date": "26/04/2023",
+          "value": "13.75",
+          "epochDate": 1682467200000
+        },
+        {
+          "date": "25/04/2023",
+          "value": "13.75",
+          "epochDate": 1682380800000
+        },
+        {
+          "date": "24/04/2023",
+          "value": "13.75",
+          "epochDate": 1682294400000
+        },
+        {
+          "date": "23/04/2023",
+          "value": "13.75",
+          "epochDate": 1682208000000
+        },
+        {
+          "date": "22/04/2023",
+          "value": "13.75",
+          "epochDate": 1682121600000
+        },
+        {
+          "date": "21/04/2023",
+          "value": "13.75",
+          "epochDate": 1682035200000
+        },
+        {
+          "date": "20/04/2023",
+          "value": "13.75",
+          "epochDate": 1681948800000
+        },
+        {
+          "date": "19/04/2023",
+          "value": "13.75",
+          "epochDate": 1681862400000
+        },
+        {
+          "date": "18/04/2023",
+          "value": "13.75",
+          "epochDate": 1681776000000
+        },
+        {
+          "date": "17/04/2023",
+          "value": "13.75",
+          "epochDate": 1681689600000
+        },
+        {
+          "date": "16/04/2023",
+          "value": "13.75",
+          "epochDate": 1681603200000
+        },
+        {
+          "date": "15/04/2023",
+          "value": "13.75",
+          "epochDate": 1681516800000
+        },
+        {
+          "date": "14/04/2023",
+          "value": "13.75",
+          "epochDate": 1681430400000
+        },
+        {
+          "date": "13/04/2023",
+          "value": "13.75",
+          "epochDate": 1681344000000
+        },
+        {
+          "date": "12/04/2023",
+          "value": "13.75",
+          "epochDate": 1681257600000
+        },
+        {
+          "date": "11/04/2023",
+          "value": "13.75",
+          "epochDate": 1681171200000
+        },
+        {
+          "date": "10/04/2023",
+          "value": "13.75",
+          "epochDate": 1681084800000
+        },
+        {
+          "date": "09/04/2023",
+          "value": "13.75",
+          "epochDate": 1680998400000
+        },
+        {
+          "date": "08/04/2023",
+          "value": "13.75",
+          "epochDate": 1680912000000
+        },
+        {
+          "date": "07/04/2023",
+          "value": "13.75",
+          "epochDate": 1680825600000
+        },
+        {
+          "date": "06/04/2023",
+          "value": "13.75",
+          "epochDate": 1680739200000
+        },
+        {
+          "date": "05/04/2023",
+          "value": "13.75",
+          "epochDate": 1680652800000
+        },
+        {
+          "date": "04/04/2023",
+          "value": "13.75",
+          "epochDate": 1680566400000
+        },
+        {
+          "date": "03/04/2023",
+          "value": "13.75",
+          "epochDate": 1680480000000
+        },
+        {
+          "date": "02/04/2023",
+          "value": "13.75",
+          "epochDate": 1680393600000
+        },
+        {
+          "date": "01/04/2023",
+          "value": "13.75",
+          "epochDate": 1680307200000
+        },
+        {
+          "date": "31/03/2023",
+          "value": "13.75",
+          "epochDate": 1680220800000
+        },
+        {
+          "date": "30/03/2023",
+          "value": "13.75",
+          "epochDate": 1680134400000
+        },
+        {
+          "date": "29/03/2023",
+          "value": "13.75",
+          "epochDate": 1680048000000
+        },
+        {
+          "date": "28/03/2023",
+          "value": "13.75",
+          "epochDate": 1679961600000
+        },
+        {
+          "date": "27/03/2023",
+          "value": "13.75",
+          "epochDate": 1679875200000
+        },
+        {
+          "date": "26/03/2023",
+          "value": "13.75",
+          "epochDate": 1679788800000
+        },
+        {
+          "date": "25/03/2023",
+          "value": "13.75",
+          "epochDate": 1679702400000
+        },
+        {
+          "date": "24/03/2023",
+          "value": "13.75",
+          "epochDate": 1679616000000
+        },
+        {
+          "date": "23/03/2023",
+          "value": "13.75",
+          "epochDate": 1679529600000
+        },
+        {
+          "date": "22/03/2023",
+          "value": "13.75",
+          "epochDate": 1679443200000
+        },
+        {
+          "date": "21/03/2023",
+          "value": "13.75",
+          "epochDate": 1679356800000
+        },
+        {
+          "date": "20/03/2023",
+          "value": "13.75",
+          "epochDate": 1679270400000
+        },
+        {
+          "date": "19/03/2023",
+          "value": "13.75",
+          "epochDate": 1679184000000
+        },
+        {
+          "date": "18/03/2023",
+          "value": "13.75",
+          "epochDate": 1679097600000
+        },
+        {
+          "date": "17/03/2023",
+          "value": "13.75",
+          "epochDate": 1679011200000
+        },
+        {
+          "date": "16/03/2023",
+          "value": "13.75",
+          "epochDate": 1678924800000
+        },
+        {
+          "date": "15/03/2023",
+          "value": "13.75",
+          "epochDate": 1678838400000
+        },
+        {
+          "date": "14/03/2023",
+          "value": "13.75",
+          "epochDate": 1678752000000
+        },
+        {
+          "date": "13/03/2023",
+          "value": "13.75",
+          "epochDate": 1678665600000
+        },
+        {
+          "date": "12/03/2023",
+          "value": "13.75",
+          "epochDate": 1678579200000
+        },
+        {
+          "date": "11/03/2023",
+          "value": "13.75",
+          "epochDate": 1678492800000
+        },
+        {
+          "date": "10/03/2023",
+          "value": "13.75",
+          "epochDate": 1678406400000
+        },
+        {
+          "date": "09/03/2023",
+          "value": "13.75",
+          "epochDate": 1678320000000
+        },
+        {
+          "date": "08/03/2023",
+          "value": "13.75",
+          "epochDate": 1678233600000
+        },
+        {
+          "date": "07/03/2023",
+          "value": "13.75",
+          "epochDate": 1678147200000
+        },
+        {
+          "date": "06/03/2023",
+          "value": "13.75",
+          "epochDate": 1678060800000
+        },
+        {
+          "date": "05/03/2023",
+          "value": "13.75",
+          "epochDate": 1677974400000
+        },
+        {
+          "date": "04/03/2023",
+          "value": "13.75",
+          "epochDate": 1677888000000
+        },
+        {
+          "date": "03/03/2023",
+          "value": "13.75",
+          "epochDate": 1677801600000
+        },
+        {
+          "date": "02/03/2023",
+          "value": "13.75",
+          "epochDate": 1677715200000
+        },
+        {
+          "date": "01/03/2023",
+          "value": "13.75",
+          "epochDate": 1677628800000
+        },
+        {
+          "date": "28/02/2023",
+          "value": "13.75",
+          "epochDate": 1677542400000
+        },
+        {
+          "date": "27/02/2023",
+          "value": "13.75",
+          "epochDate": 1677456000000
+        },
+        {
+          "date": "26/02/2023",
+          "value": "13.75",
+          "epochDate": 1677369600000
+        },
+        {
+          "date": "25/02/2023",
+          "value": "13.75",
+          "epochDate": 1677283200000
+        },
+        {
+          "date": "24/02/2023",
+          "value": "13.75",
+          "epochDate": 1677196800000
+        },
+        {
+          "date": "23/02/2023",
+          "value": "13.75",
+          "epochDate": 1677110400000
+        },
+        {
+          "date": "22/02/2023",
+          "value": "13.75",
+          "epochDate": 1677024000000
+        },
+        {
+          "date": "21/02/2023",
+          "value": "13.75",
+          "epochDate": 1676937600000
+        },
+        {
+          "date": "20/02/2023",
+          "value": "13.75",
+          "epochDate": 1676851200000
+        },
+        {
+          "date": "19/02/2023",
+          "value": "13.75",
+          "epochDate": 1676764800000
+        },
+        {
+          "date": "18/02/2023",
+          "value": "13.75",
+          "epochDate": 1676678400000
+        },
+        {
+          "date": "17/02/2023",
+          "value": "13.75",
+          "epochDate": 1676592000000
+        },
+        {
+          "date": "16/02/2023",
+          "value": "13.75",
+          "epochDate": 1676505600000
+        },
+        {
+          "date": "15/02/2023",
+          "value": "13.75",
+          "epochDate": 1676419200000
+        },
+        {
+          "date": "14/02/2023",
+          "value": "13.75",
+          "epochDate": 1676332800000
+        },
+        {
+          "date": "13/02/2023",
+          "value": "13.75",
+          "epochDate": 1676246400000
+        },
+        {
+          "date": "12/02/2023",
+          "value": "13.75",
+          "epochDate": 1676160000000
+        },
+        {
+          "date": "11/02/2023",
+          "value": "13.75",
+          "epochDate": 1676073600000
+        },
+        {
+          "date": "10/02/2023",
+          "value": "13.75",
+          "epochDate": 1675987200000
+        },
+        {
+          "date": "09/02/2023",
+          "value": "13.75",
+          "epochDate": 1675900800000
+        },
+        {
+          "date": "08/02/2023",
+          "value": "13.75",
+          "epochDate": 1675814400000
+        },
+        {
+          "date": "07/02/2023",
+          "value": "13.75",
+          "epochDate": 1675728000000
+        },
+        {
+          "date": "06/02/2023",
+          "value": "13.75",
+          "epochDate": 1675641600000
+        },
+        {
+          "date": "05/02/2023",
+          "value": "13.75",
+          "epochDate": 1675555200000
+        },
+        {
+          "date": "04/02/2023",
+          "value": "13.75",
+          "epochDate": 1675468800000
+        },
+        {
+          "date": "03/02/2023",
+          "value": "13.75",
+          "epochDate": 1675382400000
+        },
+        {
+          "date": "02/02/2023",
+          "value": "13.75",
+          "epochDate": 1675296000000
+        },
+        {
+          "date": "01/02/2023",
+          "value": "13.75",
+          "epochDate": 1675209600000
+        },
+        {
+          "date": "31/01/2023",
+          "value": "13.75",
+          "epochDate": 1675123200000
+        },
+        {
+          "date": "30/01/2023",
+          "value": "13.75",
+          "epochDate": 1675036800000
+        },
+        {
+          "date": "29/01/2023",
+          "value": "13.75",
+          "epochDate": 1674950400000
+        },
+        {
+          "date": "28/01/2023",
+          "value": "13.75",
+          "epochDate": 1674864000000
+        },
+        {
+          "date": "27/01/2023",
+          "value": "13.75",
+          "epochDate": 1674777600000
+        },
+        {
+          "date": "26/01/2023",
+          "value": "13.75",
+          "epochDate": 1674691200000
+        },
+        {
+          "date": "25/01/2023",
+          "value": "13.75",
+          "epochDate": 1674604800000
+        },
+        {
+          "date": "24/01/2023",
+          "value": "13.75",
+          "epochDate": 1674518400000
+        },
+        {
+          "date": "23/01/2023",
+          "value": "13.75",
+          "epochDate": 1674432000000
+        },
+        {
+          "date": "22/01/2023",
+          "value": "13.75",
+          "epochDate": 1674345600000
+        },
+        {
+          "date": "21/01/2023",
+          "value": "13.75",
+          "epochDate": 1674259200000
+        },
+        {
+          "date": "20/01/2023",
+          "value": "13.75",
+          "epochDate": 1674172800000
+        },
+        {
+          "date": "19/01/2023",
+          "value": "13.75",
+          "epochDate": 1674086400000
+        },
+        {
+          "date": "18/01/2023",
+          "value": "13.75",
+          "epochDate": 1674000000000
+        },
+        {
+          "date": "17/01/2023",
+          "value": "13.75",
+          "epochDate": 1673913600000
+        },
+        {
+          "date": "16/01/2023",
+          "value": "13.75",
+          "epochDate": 1673827200000
+        },
+        {
+          "date": "15/01/2023",
+          "value": "13.75",
+          "epochDate": 1673740800000
+        },
+        {
+          "date": "14/01/2023",
+          "value": "13.75",
+          "epochDate": 1673654400000
+        },
+        {
+          "date": "13/01/2023",
+          "value": "13.75",
+          "epochDate": 1673568000000
+        },
+        {
+          "date": "12/01/2023",
+          "value": "13.75",
+          "epochDate": 1673481600000
+        },
+        {
+          "date": "11/01/2023",
+          "value": "13.75",
+          "epochDate": 1673395200000
+        },
+        {
+          "date": "10/01/2023",
+          "value": "13.75",
+          "epochDate": 1673308800000
+        },
+        {
+          "date": "09/01/2023",
+          "value": "13.75",
+          "epochDate": 1673222400000
+        },
+        {
+          "date": "08/01/2023",
+          "value": "13.75",
+          "epochDate": 1673136000000
+        },
+        {
+          "date": "07/01/2023",
+          "value": "13.75",
+          "epochDate": 1673049600000
+        },
+        {
+          "date": "06/01/2023",
+          "value": "13.75",
+          "epochDate": 1672963200000
+        },
+        {
+          "date": "05/01/2023",
+          "value": "13.75",
+          "epochDate": 1672876800000
+        },
+        {
+          "date": "04/01/2023",
+          "value": "13.75",
+          "epochDate": 1672790400000
+        },
+        {
+          "date": "03/01/2023",
+          "value": "13.75",
+          "epochDate": 1672704000000
+        },
+        {
+          "date": "02/01/2023",
+          "value": "13.75",
+          "epochDate": 1672617600000
+        },
+        {
+          "date": "01/01/2023",
+          "value": "13.75",
+          "epochDate": 1672531200000
+        },
+        {
+          "date": "31/12/2022",
+          "value": "13.75",
+          "epochDate": 1672444800000
+        },
+        {
+          "date": "30/12/2022",
+          "value": "13.75",
+          "epochDate": 1672358400000
+        },
+        {
+          "date": "29/12/2022",
+          "value": "13.75",
+          "epochDate": 1672272000000
+        },
+        {
+          "date": "28/12/2022",
+          "value": "13.75",
+          "epochDate": 1672185600000
+        },
+        {
+          "date": "27/12/2022",
+          "value": "13.75",
+          "epochDate": 1672099200000
+        },
+        {
+          "date": "26/12/2022",
+          "value": "13.75",
+          "epochDate": 1672012800000
+        },
+        {
+          "date": "25/12/2022",
+          "value": "13.75",
+          "epochDate": 1671926400000
+        },
+        {
+          "date": "24/12/2022",
+          "value": "13.75",
+          "epochDate": 1671840000000
+        },
+        {
+          "date": "23/12/2022",
+          "value": "13.75",
+          "epochDate": 1671753600000
+        },
+        {
+          "date": "22/12/2022",
+          "value": "13.75",
+          "epochDate": 1671667200000
+        },
+        {
+          "date": "21/12/2022",
+          "value": "13.75",
+          "epochDate": 1671580800000
+        },
+        {
+          "date": "20/12/2022",
+          "value": "13.75",
+          "epochDate": 1671494400000
+        },
+        {
+          "date": "19/12/2022",
+          "value": "13.75",
+          "epochDate": 1671408000000
+        },
+        {
+          "date": "18/12/2022",
+          "value": "13.75",
+          "epochDate": 1671321600000
+        },
+        {
+          "date": "17/12/2022",
+          "value": "13.75",
+          "epochDate": 1671235200000
+        },
+        {
+          "date": "16/12/2022",
+          "value": "13.75",
+          "epochDate": 1671148800000
+        },
+        {
+          "date": "15/12/2022",
+          "value": "13.75",
+          "epochDate": 1671062400000
+        },
+        {
+          "date": "14/12/2022",
+          "value": "13.75",
+          "epochDate": 1670976000000
+        },
+        {
+          "date": "13/12/2022",
+          "value": "13.75",
+          "epochDate": 1670889600000
+        },
+        {
+          "date": "12/12/2022",
+          "value": "13.75",
+          "epochDate": 1670803200000
+        },
+        {
+          "date": "11/12/2022",
+          "value": "13.75",
+          "epochDate": 1670716800000
+        }
+      ]
+    }
+  },
+  {
+    "function_name": "get_income_statement_history_quarterly",
+    "success": false,
+    "error_message": "No data returned",
+    "response_data": {}
+  },
+  {
+    "function_name": "get_balance_sheet_history_quarterly",
+    "success": false,
+    "error_message": "No data returned",
+    "response_data": {}
+  }
+]
